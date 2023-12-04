@@ -10,7 +10,7 @@ class MyHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Scrren'),
+        title: Text('Home '),
       ),
       drawer: Drawer(
         child: ListView(
