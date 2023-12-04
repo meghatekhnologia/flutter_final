@@ -82,6 +82,28 @@ class MyHome extends StatelessWidget {
                 //Navigator.pop(context);
               },
             ),
+            ListTile(
+              leading:Icon(Icons.login_outlined),
+              title: Text('Sign-In'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context,'login');
+                //Navigator.pop(context);
+              },
+
+
+            ),
+            ListTile(
+              leading:Icon(Icons.person_add),
+              title: Text('Sign-Up'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context,'registration');
+                //Navigator.pop(context);
+              },
+
+
+            ),
           ],
         ),
       ),
